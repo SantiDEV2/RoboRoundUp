@@ -87,7 +87,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.06, y: 0.42}
-  m_ConnectedAnchor: {x: 0.2658572, y: -0.7602559}
+  m_ConnectedAnchor: {x: 0.26585716, y: -0.7602557}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -592,7 +592,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.44}
-  m_ConnectedAnchor: {x: -0.3404968, y: -0.86682326}
+  m_ConnectedAnchor: {x: -0.3404968, y: -0.86682314}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -772,7 +772,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.4}
-  m_ConnectedAnchor: {x: -0.058575917, y: -0.5610934}
+  m_ConnectedAnchor: {x: -0.05857605, y: -0.56109357}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1036,7 +1036,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.4}
-  m_ConnectedAnchor: {x: -0.3605852, y: 0.47504076}
+  m_ConnectedAnchor: {x: -0.36058524, y: 0.47504076}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1216,7 +1216,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03, y: 0.37}
-  m_ConnectedAnchor: {x: 0.26291594, y: 0.5099657}
+  m_ConnectedAnchor: {x: 0.26291585, y: 0.5099658}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1312,7 +1312,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.28, y: 0.3}
-  m_ConnectedAnchor: {x: -0.03057954, y: -0.37963927}
+  m_ConnectedAnchor: {x: -0.030579653, y: -0.37963924}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1408,7 +1408,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.66}
-  m_ConnectedAnchor: {x: 0.0057834852, y: 0.7263354}
+  m_ConnectedAnchor: {x: 0.005783476, y: 0.72633547}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1588,7 +1588,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.1, y: 0.42}
-  m_ConnectedAnchor: {x: -0.034989405, y: -0.40579885}
+  m_ConnectedAnchor: {x: -0.03498931, y: -0.40579882}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1768,7 +1768,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.28}
-  m_ConnectedAnchor: {x: -0.028846232, y: -0.44664595}
+  m_ConnectedAnchor: {x: -0.028846214, y: -0.44664586}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1864,7 +1864,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.3}
-  m_ConnectedAnchor: {x: -0.00494844, y: -0.48874497}
+  m_ConnectedAnchor: {x: -0.0049484023, y: -0.48874506}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1898,7 +1898,7 @@ Transform:
   m_GameObject: {fileID: 4870538085373515136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.02, y: -0.24, z: 0}
-  m_LocalScale: {x: 0.4976765, y: 0.4976765, z: 0.4976765}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4870538084150200897}
@@ -2089,7 +2089,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.03, y: 0.36}
-  m_ConnectedAnchor: {x: -0.046061523, y: -0.6772534}
+  m_ConnectedAnchor: {x: -0.046061374, y: -0.6772536}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2353,7 +2353,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.06, y: 0.38}
-  m_ConnectedAnchor: {x: -0.06497965, y: -0.6104375}
+  m_ConnectedAnchor: {x: -0.06497964, y: -0.6104376}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2617,7 +2617,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.33}
-  m_ConnectedAnchor: {x: -0.030406468, y: -0.6313487}
+  m_ConnectedAnchor: {x: -0.030406402, y: -0.63134885}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
