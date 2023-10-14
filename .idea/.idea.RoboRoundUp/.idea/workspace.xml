@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df714870-5598-4077-8422-292160838ab7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Code/Scripts/Actions/DestroyAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Code/Scripts/Actions/DestroyAction.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RoboRoundUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoboRoundUp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Code/Scripts/Health/HealthSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Code/Scripts/Health/HealthSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Code/Scripts/Actions/OnTriggerEnterAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -89,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697237151268</updated>
       <workItem from="1697237155631" duration="1018000" />
-      <workItem from="1697240186989" duration="1790000" />
+      <workItem from="1697240186989" duration="4370000" />
     </task>
     <servers />
   </component>
