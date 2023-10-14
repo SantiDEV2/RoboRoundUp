@@ -13,10 +13,11 @@ public class OnTriggerEnterAction : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         var otherLayer = other.gameObject.layer;
-        //CHECK IS "_collisionMask" is in layer "otherLayer"
+        //CHECK IF "_collisionMask" is in layer "otherLayer"
         var isInLayerMask = (_collisionMask & (1<<otherLayer)) != 0;
         Debug.Log("isInLayer Mask: "+isInLayerMask);
         if (!isInLayerMask) return;
+        
         OnTriggerAction?.Invoke();
     }
 }
