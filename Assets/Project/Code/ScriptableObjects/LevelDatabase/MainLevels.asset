@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: MainLevels
   m_EditorClassIdentifier: 
   Levels:
+  - NumberLevel: 0
+    LevelName: Assets/Project/World/Scenes/Levels/Level1.unity
   - NumberLevel: 1
-    LevelName: Levels/Level1
+    LevelName: Assets/Project/World/Scenes/Levels/Level1.unity
   - NumberLevel: 2
-    LevelName: Levels/Level2
+    LevelName: Assets/Project/World/Scenes/Levels/Level2.unity
   - NumberLevel: 3
-    LevelName: Levels/Level3
+    LevelName: Assets/Project/World/Scenes/Levels/Level3.unity
