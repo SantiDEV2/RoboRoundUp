@@ -32,6 +32,7 @@ public class HealthSystem : MonoBehaviour
     [ContextMenu("Take Damage")]
     public void TakeDamage()
     {
+        Debug.Log("Takes damage");
         if (!Application.IsPlaying(this)) return;
         AddHealth(-1);
     }

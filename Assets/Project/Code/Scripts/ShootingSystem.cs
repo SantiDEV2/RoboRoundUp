@@ -109,7 +109,7 @@ public class ShootingSystem : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Dynamic;
        
         rb.velocity = -_distance.normalized * maxSpeed * _distance.magnitude / range;
-
+        actualTarget.GetComponentInParent<HealthSystem>().TakeDamage();
         
     }
 
