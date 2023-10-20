@@ -11,7 +11,6 @@ public class HealthSystem : MonoBehaviour
 
     public int Health => _health;
     private int _health;
-
     private void Start()
     {
         _health = MaxHealth.Value;

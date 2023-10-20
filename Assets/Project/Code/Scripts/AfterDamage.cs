@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class AfterDamage : MonoBehaviour
 {
     private Renderer[] _allChildRenderers;
     private Material[] _allMaterials;
-    public SpriteRenderer[] hearts;
+    public GameObject[] hearts;
     public GameObject follow;
+    private int index=0;
     
     private void Start()
     {
@@ -17,25 +20,22 @@ public class AfterDamage : MonoBehaviour
         {
             _allMaterials[i] = _allChildRenderers[i].GetComponent<Renderer>().material;
         }
-
-        for (int i = 0; i < hearts.Length; i++)
-        {
-             /*var color = hearts[i].GetComponent<Renderer>().material;
-             color.SetColor("Green",Color.green);*/
-        }
     }
 
     private void Update()
     {
-        for (int i = 0; i < hearts.Length; i++)
-        {
-            hearts[i].transform.SetParent(follow.transform);
-            hearts[i].transform.Rotate(0,0,0);
-        }
-        if (Input.GetMouseButton(0))
-        {
-            StartCoroutine(ColorChanger());
-        }
+        hearts[3].transform.position = follow.transform.position;
+    }
+
+    public void Damage()
+    {
+       
+
+        
+        StartCoroutine(ColorChanger());
+        if (index>= 3) return;
+        hearts[index].SetActive(false);
+        index++;
     }
 
 
