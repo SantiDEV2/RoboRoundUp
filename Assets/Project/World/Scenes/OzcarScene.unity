@@ -7380,9 +7380,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hearts:
+  - {fileID: 1841208662}
   - {fileID: 1481254233}
   - {fileID: 1228086857}
-  - {fileID: 1841208662}
+  - {fileID: 393708798}
   follow: {fileID: 803401144}
 --- !u!4 &1741823060 stripped
 Transform:
