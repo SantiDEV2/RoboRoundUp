@@ -5,8 +5,9 @@ using UnityEngine;
 public class Chariot : MonoBehaviour
 {
     [SerializeField] private Puntuacion punt;
+    public static int puntuacionpu;
     private HashSet<Transform> robotsMuertos = new();
-    public GameObject panelWin,panelLose;
+   // public GameObject panelWin,panelLose;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,10 +23,7 @@ public class Chariot : MonoBehaviour
         if (punt != null)
         {
             punt.AddPoint();
+            puntuacionpu++;
         }
-
-        
-        
-
     }
 }

@@ -11,6 +11,8 @@ public class HealthSystem : MonoBehaviour
 
     public int Health => _health;
     private int _health;
+
+    public static int puntuacionMala;
     private void Start()
     {
         _health = MaxHealth.Value;
@@ -25,7 +27,12 @@ public class HealthSystem : MonoBehaviour
         _health = Mathf.Clamp(newHealth, 0, MaxHealth.Value);
         //_health = newHealth;
         if(_health <= 0)
+        {
             OnDead?.Invoke();
+            puntuacionMala++;
+        }
+            
+
     }
     
     [ContextMenu("Take Damage")]
