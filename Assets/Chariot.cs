@@ -6,6 +6,7 @@ public class Chariot : MonoBehaviour
 {
     [SerializeField] private Puntuacion punt;
     private HashSet<Transform> robotsMuertos = new();
+    public GameObject panelWin,panelLose;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,6 +23,9 @@ public class Chariot : MonoBehaviour
         {
             punt.AddPoint();
         }
+
         
+        
+
     }
 }
