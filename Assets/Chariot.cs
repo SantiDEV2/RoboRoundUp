@@ -23,9 +23,5 @@ public class Chariot : MonoBehaviour
         {
             punt.AddPoint();
         }
-
-        
-        
-
     }
 }

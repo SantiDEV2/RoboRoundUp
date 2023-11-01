@@ -34,5 +34,4 @@ public class Puntuacion : MonoBehaviour
         m_TextMeshProUGUI.text = puntuacion.ToString();
         
     }
-
 }
