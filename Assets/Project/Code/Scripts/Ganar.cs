@@ -18,7 +18,7 @@ public class Ganar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        Debug.Log(robots);
 
         foreach (GameObject r in robots)
         {

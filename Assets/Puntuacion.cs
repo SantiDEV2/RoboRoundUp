@@ -13,6 +13,7 @@ public class Puntuacion : MonoBehaviour
     private void Awake()
     {
         UpdatePuntuacion();
+        puntuacion = 0;
     }
 
     public void AddPoint()

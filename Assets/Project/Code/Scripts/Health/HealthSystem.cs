@@ -13,6 +13,10 @@ public class HealthSystem : MonoBehaviour
     private int _health;
 
     public static int puntuacionMala;
+    private void Awake()
+    {
+      
+    }
     private void Start()
     {
         _health = MaxHealth.Value;

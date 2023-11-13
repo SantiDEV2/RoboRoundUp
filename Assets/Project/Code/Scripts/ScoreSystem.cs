@@ -14,7 +14,10 @@ public class ScoreSystem : MonoBehaviour
     private int _maxRobots;
     private int _maxVidas;
     private int _maxDisparos;
-
+    private void Awake()
+    {
+        vidas.Value = 0;
+    }
     private void Start() {
         _maxRobots = robots.Value;
         _maxVidas = vidas.Value;

@@ -7,8 +7,12 @@ public class Chariot : MonoBehaviour
     [SerializeField] private Puntuacion punt;
     public static int puntuacionpu;
     private HashSet<Transform> robotsMuertos = new();
-   // public GameObject panelWin,panelLose;
-
+    // public GameObject panelWin,panelLose;
+    private void Start()
+    {
+ 
+        puntuacionpu = 0;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.gameObject.CompareTag("Robot")) return;
