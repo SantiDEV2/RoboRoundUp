@@ -29,9 +29,6 @@ public class AfterDamage : MonoBehaviour
 
     public void Damage()
     {
-       
-
-        
         StartCoroutine(ColorChanger());
         if (index>= 3) return;
         hearts[index].SetActive(false);
@@ -52,4 +49,6 @@ public class AfterDamage : MonoBehaviour
             this._allMaterials[i].SetColor("_Color", Color.white);
         }
     }
+
+    
 }
