@@ -12,6 +12,7 @@ public class Chariot : MonoBehaviour
     {
  
         puntuacionpu = 0;
+        HealthSystem.puntuacionMala = 0;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
