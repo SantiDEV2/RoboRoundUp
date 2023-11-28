@@ -12,14 +12,15 @@ public class Ganar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Chariot.puntuacionpu  = 0;
+        HealthSystem.puntuacionMala = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         
-
+            Debug.Log(Chariot.puntuacionpu);
         foreach (GameObject r in robots)
         {
             if (r.activeSelf)

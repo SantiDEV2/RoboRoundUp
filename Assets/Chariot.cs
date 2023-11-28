@@ -10,7 +10,7 @@ public class Chariot : MonoBehaviour
     // public GameObject panelWin,panelLose;
     private void Start()
     {
- 
+        
         puntuacionpu = 0;
     }
     private void OnTriggerEnter2D(Collider2D collision)
