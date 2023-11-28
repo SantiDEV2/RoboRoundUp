@@ -24,7 +24,7 @@ public class Flechas : MonoBehaviour
     {
         GameObject actual = Instantiate(arrows,gameObject.transform.position,quaternion.identity);
         actual.GetComponent<Rigidbody2D>().AddForce(Vector2.up*fuerza*1000);
-        Destroy(actual,2);
+        Destroy(actual,0.4f);
         
     }
 }
