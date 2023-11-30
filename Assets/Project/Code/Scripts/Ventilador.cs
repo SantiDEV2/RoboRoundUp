@@ -11,7 +11,7 @@ public class Ventilador : MonoBehaviour
     {
         if (other.CompareTag("Robot"))
         {
-            Debug.Log("Ventilador en accion");
+            
             //other.GetComponent<Rigidbody2D>().AddForce(Vector2.up);
             if(esInvertido == false)
             {

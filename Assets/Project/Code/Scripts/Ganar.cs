@@ -20,18 +20,18 @@ public class Ganar : MonoBehaviour
     void Update()
     {
         
-            Debug.Log(Chariot.puntuacionpu);
+           
         foreach (GameObject r in robots)
         {
             if (r.activeSelf)
             {
-                Debug.Log(r);
+              
                 
                 
             }
             else
             {
-                Debug.Log(r + "ya no esta");
+                
                 
                 if (Chariot.puntuacionpu == 3)
                 {

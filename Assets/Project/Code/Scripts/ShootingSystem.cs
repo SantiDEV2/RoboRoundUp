@@ -121,7 +121,7 @@ public class ShootingSystem : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero,layer);
         if (hit.collider != null&&hit.collider.CompareTag("Robot"))
         {
-            Debug.Log(hit.collider.gameObject.name);
+           
 
             actualTarget = hit.collider.gameObject;
         }
